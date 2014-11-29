@@ -22,7 +22,7 @@
 
 ;;; Commentary:
 ;;
-;; This module sets `indent-tabs-mode', `tab-width', as well as
+;; This library sets `indent-tabs-mode', `tab-width', as well as
 ;; `whitespace-style' (from `whitespace-mode') according to the
 ;; settings of the gitattributes(5) whitespace setting for the file
 ;; (as best as they can be matched).  If the file is not in a Git
@@ -30,7 +30,8 @@
 ;; happens.
 ;;
 ;; `gitattributes-whitespace-apply' can be called interactively, but
-;; is best called via `find-file-hook' (ideally last).
+;; is best called via `find-file-hook' (ideally last).  This is set up
+;; automatically if this library is installed as a package.
 
 ;;; Code:
 
