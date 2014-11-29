@@ -5,7 +5,7 @@
 ;; Author: Peter Eisentraut <peter@eisentraut.org>
 ;; URL: https://github.com/petere/emacs-gitattributes-whitespace
 ;; Version: 0
-;; Keywords:
+;; Keywords: convenience, tools, vc
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
